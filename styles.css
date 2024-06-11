@@ -1,0 +1,97 @@
+/* styles.css */
+
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #444;
+    margin: 0;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    background-image: url("./image.jpg"); 
+    background-size: cover; /* Fit the background image within the container */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-position: center; /* Center the background image */
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+}
+
+/* Location text styles */
+.location {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+#text_location_country {
+    font-size: 16px;
+    color: #444;
+
+}
+
+/* Temperature styles */
+.temp {
+    font-size: 72px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #e74c3c;
+}
+
+/* Feels like temperature styles */
+.temp_feel_like {
+    margin-top: 10px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+/* Icon styles */
+#icon {
+    margin-top: 20px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: #444;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+#icon:hover {
+    transform: scale(1.1);
+}
+
+/* Description text styles */
+#text_desc {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+
+/* Hover effect for text */
+.hover-effect {
+    transition: color 0.3s ease-in-out;
+}
+
+.hover-effect:hover {
+    color: #e74c3c;
+}
